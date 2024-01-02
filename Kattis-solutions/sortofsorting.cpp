@@ -16,7 +16,7 @@ int dy[8] = {0,1,0,-1,-1,1,1,-1};
 
 
 // NO NEED TO IMPLEMENT SPECIAL ALGORITHM
-// JUS USE (STABLE_SORT) FUNCTION AND CUSTOM COMPARATOR
+// JUST USE (STABLE_SORT) FUNCTION AND CUSTOM COMPARATOR
 bool cmp(string i1,string i2){
     if(i1.substr(0,2)!=i2.substr(0,2))return i1.substr(0,2)<i2.substr(0,2);
 }
