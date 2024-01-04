@@ -15,7 +15,7 @@ int dx[8] = {1,0,-1,0,-1,1,-1,1};
 int dy[8] = {0,1,0,-1,-1,1,1,-1};
 
 
-//Double number of printer until you can't craft all statues in one day
+//Double number of printers until you can't craft all statues in one day
 
 void solve(){
     int n;
